@@ -1,0 +1,226 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f8fa;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ms-welcome {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ms-welcome > main {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ms-Button.ms-Button--hero .ms-Button-label {
+  color: #0078d7;
+}
+
+.ms-Button.ms-Button--hero:hover .ms-Button-label,
+.ms-Button.ms-Button--hero:focus .ms-Button-label {
+  color: #005a9e;
+  cursor: pointer;
+}
+
+b {
+  font-weight: bold;
+}
+
+/* Estilos para o painel de processamento */
+.processing-list {
+  margin-top: 20px;
+}
+
+.processing-item {
+  border: 1px solid #edebe9;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.processing-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.processing-item-status {
+  font-weight: bold;
+}
+
+.processing-item-error {
+  color: #a4262c;
+  margin-top: 5px;
+}
+
+.processing-item-data {
+  background: #f3f2f1;
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+/* Estilos para o painel de configurações */
+.settings-panel {
+  padding: 20px;
+}
+
+.settings-field {
+  margin-bottom: 15px;
+}
+
+.settings-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Container principal */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Campos de texto */
+.ms-TextField {
+  margin-bottom: 16px;
+}
+
+.ms-TextField-field {
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.ms-TextField-field:hover {
+  border-color: #1a73e8;
+}
+
+.ms-TextField-field:focus {
+  border-color: #1a73e8;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+/* Labels */
+.ms-Label {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+/* Botões */
+.ms-Button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.ms-Button:hover {
+  background-color: #1557b0;
+}
+
+.ms-Button:active {
+  background-color: #0d47a1;
+}
+
+/* Mensagens de erro */
+.ms-MessageBar {
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+
+/* Loading spinner */
+.ms-Spinner {
+  margin: 20px auto;
+}
+
+/* Stack container */
+.ms-Stack {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1a73e8;
+}
