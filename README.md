@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cotação Manager - Outlook Add-in
 
 Este projeto consiste em uma extensão para o Outlook que automatiza o processamento de e-mails de cotações, integrando com LLaMA 3.2 e um sistema ERP.
@@ -99,3 +100,7 @@ Os dados extraídos são enviados para o sistema ERP via API REST.
 ## Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+=======
+# email_project
+Add-In on Outlook to create Offers quickly
+>>>>>>> 29e8ec3d044eafd87c88b693dacc3155e457aa9c
