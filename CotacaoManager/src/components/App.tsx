@@ -48,8 +48,30 @@ export class App extends React.Component<{}, AppState> {
       <div className="container">
         <div className="header">
           <div className="logo">
-            <div className="logo-icon">RC</div>
-            <div className="logo-text">Gerenciador de Cotações</div>
+            <div className="logo-text">
+              <span
+                style={{
+                  fontSize: 20,
+                  fontWeight: 600,
+                  color: "#fff",
+                  letterSpacing: 0.5,
+                  textShadow: "0 1px 4px rgba(0,0,0,0.10)",
+                }}
+              >
+                Gerador de Cotações Automáticas
+              </span>
+              <br />
+              <span
+                style={{
+                  fontSize: 15,
+                  fontWeight: 400,
+                  color: "#e3e8f0",
+                  letterSpacing: 0.2,
+                }}
+              >
+                Grupo Quattuor
+              </span>
+            </div>
           </div>
         </div>
 
