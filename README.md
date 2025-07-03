@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Cotação Manager - Outlook Add-in
 
 Este projeto consiste em uma extensão para o Outlook que automatiza o processamento de e-mails de cotações, integrando com LLaMA 3.2 e um sistema ERP.
@@ -52,7 +51,7 @@ Este projeto consiste em uma extensão para o Outlook que automatiza o processam
    npm start
    ```
 4. Sideload o add-in no Outlook:
-   - [Instruções para sideload](https://learn.microsoft.com/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing)
+   - Siga as instruções oficiais da Microsoft para sideload de add-ins.
 
 ## Uso
 
@@ -64,9 +63,7 @@ Este projeto consiste em uma extensão para o Outlook que automatiza o processam
    - Envio para o sistema ERP
    - Movimentação para pasta "Cotações_Processadas"
 
-## Desenvolvimento
-
-### Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ├── CotacaoManager/           # Office Add-in
@@ -81,26 +78,22 @@ Este projeto consiste em uma extensão para o Outlook que automatiza o processam
     └── Program.cs
 ```
 
-### Integração com LLaMA 3.2
+## Integração com LLaMA 3.2
 
 O sistema envia o conteúdo do e-mail para a API do LLaMA 3.2, que retorna os dados estruturados em formato JSON.
 
-### Integração com ERP
+## Integração com ERP
 
 Os dados extraídos são enviados para o sistema ERP via API REST.
 
 ## Contribuição
 
 1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
+2. Crie uma branch para sua feature (`git checkout -b feature/NomeDaFeature`)
+3. Commit suas mudanças (`git commit -m 'Descrição da feature'`)
+4. Push para a branch (`git push origin feature/NomeDaFeature`)
 5. Abra um Pull Request
 
 ## Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
-=======
-# email_project
-Add-In on Outlook to create Offers quickly
->>>>>>> 29e8ec3d044eafd87c88b693dacc3155e457aa9c
