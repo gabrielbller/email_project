@@ -1,0 +1,55 @@
+# Node
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Build output
+dist/
+build/
+
+# Office Add-in
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.sln
+*.swp
+
+# .NET
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Others
+*.tgz
+*.gz
+*.zip
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Office manifest
+*.manifest 
